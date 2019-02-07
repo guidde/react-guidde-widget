@@ -1,0 +1,43 @@
+{
+  "name": "react-guidde-widget",
+  "version": "1.0.0",
+  "description": "React component to embed the Guidde Widget into your projects.",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "prepublishOnly": "npm run build",
+    "start": "nwb serve-react-demo",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "nwb": "0.23.x",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "author": "Diego Couto <diego.gcouto@gmail.com>",
+  "homepage": "https://guidde.io",
+  "license": "MIT",
+  "repository": "https://github.com/guidde/react-guidde-widget",
+  "keywords": [
+    "react-component",
+    "customer support",
+    "guidde",
+    "widget"
+  ]
+}
