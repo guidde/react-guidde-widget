@@ -53,5 +53,5 @@ Guidde.do('recommend-articles', [
 
 You can [see the whole list of available actions here](https://help.guidde.io/en/articles/understanging-widget-actions).
 
-[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
+[npm-badge]: https://img.shields.io/npm/v/react-guidde-widget.png?style=flat-square
+[npm]: https://www.npmjs.org/package/react-guidde-widget
