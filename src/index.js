@@ -9,7 +9,7 @@ export default class extends Component {
   };
 
   componentDidMount() {
-    const { account, ...params } = props;
+    const { account, ...params } = this.props;
 
     if (!(account && isMountable)) {
       return;
