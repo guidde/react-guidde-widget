@@ -4,6 +4,12 @@
 
 We help you to provide all the support your customers need, no more than a click away from them.
 
+## 🎨 Demo
+
+![demo](https://user-images.githubusercontent.com/1069623/52442773-2fe9d900-2b0b-11e9-9093-fde3c384199d.png)
+
+**[See it in action](https://guidde.io)** on our website.
+
 ## 🚀 Getting started
 
 First things first. Let's add the widget to your project:
