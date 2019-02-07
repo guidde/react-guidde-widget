@@ -20,7 +20,7 @@ yarn add react-guidde-widget
 
 Then use it in your app:
 
-```
+```javascript
 import React from 'react'
 import Guidde from 'react-guidde-widget'
 
@@ -42,7 +42,7 @@ class App extends React.Component {
 
 Using this component, you'll also be able to explore actions like:
 
-```
+```javascript
 Guidde.do('toggle')
 Guidde.do('navigate', '/send-message')
 Guidde.do('recommend-articles', [
