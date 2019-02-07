@@ -8,9 +8,7 @@ export default class extends Component {
     account: PropTypes.string.isRequired,
   };
 
-  constructor(props) {
-    super(props);
-
+  componentDidMount() {
     const { account, ...params } = props;
 
     if (!(account && isMountable)) {
@@ -34,7 +32,7 @@ export default class extends Component {
           d.q.push({action:t,params:e})
         },
         
-        window.Guidde=d,window.attachEvent ? window.attachEvent("onload",t) : window.addEventListener("load",t,!1)
+        window.Guidde=d, t()
       })(document,window.Guidde||{});
     }
   }
